@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app='projectPage'>
 
 <head>
 
@@ -24,8 +24,11 @@
 <link rel="shortcut icon" href="img/favicon.ico">
 
 <script src="http://code.jquery.com/jquery.js"></script>
-<!-- <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script> -->
 <script src="js/bootstrap.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular-sanitize.min.js"></script>
+<script src="js/app.js"></script>
+
 
 <!-- Page basics -->
 
@@ -77,44 +80,27 @@
 		</div>
 	</div>
 
-	<hr>
 
-	<div class="row-fluid">
-		<div class="span6">
-			<h3>Code Defense</h3>
-			<P>
-				A tower-defense type of game which uses JavaScript codes as the only way to control to the game character to move, attack, and win the game!
-			</p>
-			<p>
-				<i class="icon-github"></i> Github repo: <a href="https://github.com/cuhk-csci4140/codeDefense">https://github.com/cuhk-csci4140/codeDefense</a>
-			</p>
+	<div ng-controller="projectInfoController as infoCtrl">
+		<div ng-repeat="p in infoCtrl.projects">
+			<hr>
+			<div class="row-fluid">
+				<div class="span6 offset1">
+					<h3>{{p.name}}</h3>
+					<p>
+						{{p.description}}
+					</p>
+					<p ng-repeat="r in p.repos">
+						<i class="icon-github"></i> {{r.description}}: <a href="{{r.url}}">{{r.url}}</a>
+					</p>
+				</div>
+				<div class="span5">
+					<iframe width="400" height="225" ng-src="{{trustSrc(p.youtubeURL)}}" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
 		</div>
-		<div class="span6">
-			<iframe width="400" height="225" src="//www.youtube.com/embed/SayvtqIVGRc" frameborder="0" allowfullscreen></iframe>
-		</div>
-
 	</div>
 
-	<hr>
-
-	<div class="row-fluid">
-		<div class="span6">
-			<h3>N-Mario</h3>
-			<P>
-				Not just a Mario clone. The game has introduced the awesome ingredients: multi-players on the same scene, cooperating to capture the flag, and, last but not least, betrayal!
-			</p>
-			<p>
-				<i class="icon-github"></i> The client page: <a href="https://github.com/cuhk-csci4140/N-Mario">https://github.com/cuhk-csci4140/N-Mario</a><br>
-
-				<i class="icon-github"></i> NodeJS server: <a href="https://github.com/cuhk-csci4140/Node-Mario">https://github.com/cuhk-csci4140/Node-Mario</a>
-			</p>
-
-		</div>
-		<div class="span6">
-			<iframe width="400" height="225" src="//www.youtube.com/embed/cPkCh6Z9aQ4" frameborder="0" allowfullscreen></iframe>
-		</div>
-
-	</div>
 </div>
 
 
