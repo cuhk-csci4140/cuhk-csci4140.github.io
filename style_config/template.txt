@@ -1,0 +1,254 @@
+body {
+	font-family: "Lucida Grande", Helvetica ,arial ,sans-serif;
+	background: __1__;
+}
+
+font {
+	font-family: "Lucida Grande", Helvetica ,arial ,sans-serif;
+}
+
+a:link, a:visited, a:active {
+	color: __5__;
+}
+
+/******************************************************************/
+
+ul.sidebar {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div.sidebar_block {
+	font-size:	80%;
+	margin-left:	2px;
+	margin-right:	2px;
+	background:	__2__;
+	border:		1px solid __17__;
+}
+
+div.sidebar_block a {
+	margin:		0px;
+	padding:	6px;
+	text-decoration:none;
+	display:	block;
+}
+
+
+div.sidebar_block a:hover {
+	background:	__3__;
+}
+
+li.sidebar {
+	display: inline;
+	padding: 0;
+}
+
+li.sidebar a {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+	display: block;
+	background: __2__;
+	padding: 6px 10px;
+	text-decoration: none;
+	font-size: 80%;
+}
+
+li.sidebar a:hover {
+	background: __3__;
+}
+
+/******************************************************************/
+
+div.title {
+	display:	block;
+	background:	__2__;
+	padding:	5px;
+}
+
+div.sidebar {
+	float:	left;
+	position: fixed;
+	width:	15%;
+	padding-left:	8px;
+	padding-right:	8px;
+}
+
+div.new_entry {
+	padding:	10px;
+	border:		1px solid __1__;
+	width:		95%;
+}
+
+div.news_entry, p.news_entry {
+	padding:	10px;
+	border:		1px solid __20__;
+	width:		95%;
+	margin-bottom:	2px;
+	background:	__7__;
+}
+
+div.news_entry_expired, p.news_entry_expired {
+	padding:	10px;
+	border:		1px solid __1__;
+	width:		95%;
+	margin-bottom:	2px;
+	background:	__6__;
+}
+
+h4.news_entry, a.news_entry{
+	color:		__8__;
+}
+
+h4.news_entry_expired, a.news_entry_expired{
+	color:		__9__;
+}
+
+div.main_frame {
+	float:		right;
+	padding:	5px;
+	background:	__4__;
+	width:		80%;
+        border:		5px solid __2__;
+}
+
+/******************************************************************/
+
+h3 {
+	color: __19__;
+}
+
+hr {
+	border: 1px solid __10__;
+}
+
+/******************************************************************/
+
+table.content {
+	float:		right;
+	border:		1px solid __10__;
+	font-size:	80%;
+	margin:		15px;
+}
+
+table.content th {
+	margin: 0;
+	padding: 4px 4px 4px 4px;
+	background: __11__;
+}
+
+table.content td {
+	margin: 0;
+	padding: 4px 4px 4px 4px;
+	background: __12__;
+}
+
+table.content td a {
+	display: block;
+}
+
+table.content td:hover {
+	margin: 0;
+	padding: 4px 4px 4px 4px;
+	background: __13__;
+}
+
+table.content th:hover {
+	margin: 0;
+	padding: 4px 4px 4px 4px;
+	background: __13__;
+}
+
+/******************************************************************/
+
+table.info {
+        margin-left: 10px;
+	font-size: 90%;
+}
+ 
+table.info th {
+        margin: 0;   
+        border-style: none;
+        text-align: center;
+}
+ 
+table.info td {
+        margin: 0;     
+        border: 1px dotted __9__;
+}
+
+/******************************************************************/
+
+table.lecture {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+        margin-left: 10px;
+}
+
+table.lecture th {
+        margin: 0;   
+        border-style: none;
+        text-align: center;
+	background: __8__;
+	color: __13__;
+}
+
+table.lecture tr.odd td {
+        margin: 0;     
+	background: __14__;
+}
+
+table.lecture tr.even td {
+        margin: 0;     
+	background: __15__;
+}
+
+table.lecture td.week, table.lecture tr.even td.week, table.lecture tr.odd td.week {
+	margin: 0;
+	cursor: pointer;
+	background: __16__;
+}
+
+table.lecture td.collapsed {
+	margin: 0;
+	cursor: pointer;
+	background: __12__;
+}
+
+/*********************** Admin Page **********************************/
+
+div.admin_main_frame {
+	padding:	5px;
+	background:	__4__;
+	width:		90%;
+        border:		5px solid __2__;
+}
+
+div.admin_tool_box {
+	float:	right;
+	margin:	10px;
+	padding:	10px;
+	background:	__18__;
+	border:	1px solid gray;
+}
+
+/*********************** 4140 only **********************************/
+
+div.code_frame {
+	overflow:	auto;
+	padding:	5px;
+	background:	__4__;
+	border:		5px solid __2__;
+}
+
+div.admin_frame {
+	padding:	5px;
+	background:	__4__;
+	width:		90%;
+        border:		5px solid __2__;
+}
+

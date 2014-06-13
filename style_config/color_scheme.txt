@@ -1,0 +1,23 @@
+/*
+	1st color:	body background
+	2nd color:	sidebar box, border of main frame
+	3rd color:	sidebar hover
+	4th color:	main frame background, admin main frame background
+	5th color:	hyperlink
+	6th color:	news background - expired.
+	7th color:	news background - fresh.
+	8th color:	news headline - fresh, lecture's table th background
+	9th color:	news headline - expired, info page's border
+	10th color: 	hr color
+	11th color:	control panel th row background
+	12th color:	control panel tr row background, lecture's collapsed color
+	13th color:	control panel hover, lecture's table th foreground
+	14th color:	lecture's table odd row background
+	15th color:	lecture's table even row background
+	16th color:	lecture's week column background
+	17th color:	sidebar border
+	18th color:	admin little toolbox on the right
+	19th color:	H3's color
+	20th color:	news border
+*/
+
