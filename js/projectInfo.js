@@ -1,7 +1,7 @@
 [
 	{
 		"name":  "Code Defense",
-		"youtubeID": "SayvtqIVGRc",
+		"youtubeURL": "https://www.youtube.com/embed/SayvtqIVGRc",
 		"repos": [
 			{ "description": "Github repo", "url": "https://github.com/cuhk-csci4140/codeDefense" }
 		],
@@ -9,7 +9,7 @@
 	},
 	{
 		"name": "N-Mario",
-		"youtubeID": "cPkCh6Z9aQ4",
+		"youtubeURL": "https://www.youtube.com/embed/cPkCh6Z9aQ4",
 		"repos": [
 			{ "description": "The client page", "url": "https://github.com/cuhk-csci4140/N-Mario" }, 
 			{ "description": "The Node JS server", "url": "https://github.com/cuhk-csci4140/Node-Mario"}
