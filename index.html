@@ -80,6 +80,7 @@
 		</div>
 	</div>
 
+<!-- Angular JS -->
 
 	<div ng-controller="projectInfoController as infoCtrl">
 		<div ng-repeat="p in infoCtrl.projects">
@@ -92,6 +93,9 @@
 					</p>
 					<p ng-repeat="r in p.repos">
 						<i class="icon-github"></i> {{r.description}}: <a href="{{r.url}}">{{r.url}}</a>
+					</p>
+					<p ng-show="p.live">
+						<i class="icon-home"></i> Live system: <a href="{{trustSrc(p.live)}}">{{p.live}}</a>
 					</p>
 				</div>
 				<div class="span5">
@@ -116,8 +120,9 @@
 				<table>
 					<tr>
 						<td valign="top">
+							<h4>Find us</h4>
 							<nobr>
-								<a href="http://www.cuhk.edu.hk" title="The Chinese University of Hong Kong" target="_blank">
+								<a href="http://appsrv.cse.cuhk.edu.hk/~csci4140/course-homepage-4140/index.php" title="The Chinese University of Hong Kong" target="_blank">
 									<img src="img/cuhk-white-small.gif" border="0"/>
 								</a>
 								<a href="https://github.com/cuhk-csci4140" title="cuhk-csci4140 github repo" target="_blank">
@@ -126,17 +131,22 @@
 								<a href="https://www.facebook.com/groups/1423846061185879/" title="Course Facebook Discussion Group" target="_blank">
 									<img src="img/facebook_logo.png"/>
 								</a>
+							</nobr>
+						</td>
+
+						<td>
+						</td>
+
+						<td>
+							<h4>Powered by</h4>
+							<nobr>
 								<a href="https://angularjs.org/" title="Powered by AngularJS" target="_blank">
 									<img src="img/angularjs-white.png"/>
 								</a>
+								<a href="http://getbootstrap.com/" title="Powered by Bootstrap" target="_blank">
+									<img src="img/bootstrap-white.png"/>
+								</a>
 							</nobr>
-						</td>
-						<td>
-							<p>
-								<small>
-									Created on 2014 June 12, by Dr. WONG Tsz Yeung.
-								</small>
-							</p>
 						</td>
 				</table>
 			</div>

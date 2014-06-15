@@ -122,6 +122,11 @@ img.profile {
 	margin: 10px;
 }
 
+.footer td {
+	padding-left:	10px;
+	padding-right:	10px;
+}
+
 /** common: hr class; **/
 
 kbd {
