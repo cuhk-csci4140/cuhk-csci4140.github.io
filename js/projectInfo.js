@@ -36,9 +36,26 @@
 	{
 		"name": "PlaneWar",
 		"youtubeURL": "https://www.youtube.com/embed/V9Gljy4q3wk",
-		"description": "This is an online game using mobile devices, through the orientation detection by the accelerometer, as the game controller. <br><br>Look carefully: a player is using MacBook Pro as his controller!",
+		"description": "This is an online game using mobile devices, through the orientation detection by the accelerometer, as the game controller. Look closely: a player is using MacBook Pro as his controller!",
 		"repos": [
 			{"description": "Github repo", "url": "https://github.com/cuhk-csci4140/planeWar"}
+		]
+	},
+	{
+		"name": "Tank Battle Online",
+		"youtubeURL": "https://www.youtube.com/embed/DBk66G1bdI4",
+		"description": "A bomberman-like online game with a taste of tanks! The UX and the effects are awesome.",
+		"repos": [
+			{"description": "Github repo", "url": "https://github.com/cuhk-csci4140/TankBattle"}
+		]
+	},
+	{
+		"name": "Web Civilization",
+		"live": "http://project-huangxx2155.rhcloud.com/login/login.php",
+		"youtubeURL": "https://www.youtube.com/embed/Om3kPSwqqPw",
+		"description": "A brand-new strategic game created and implemented!",
+		"repos": [
+			{"description": "Github repo", "url": "https://github.com/cuhk-csci4140/WebCiv"}
 		]
 	}
 ]
