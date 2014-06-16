@@ -5,7 +5,8 @@
 		"repos": [
 			{ "description": "Github repo", "url": "https://github.com/cuhk-csci4140/codeDefense" }
 		],
-		"description": "A tower-defense type of game which uses JavaScript codes as the only way to control to the game character to move, attack, and win the game!"
+		"description": "A tower-defense type of game which uses JavaScript codes as the only way to control to the game character to move, attack, and win the game!",
+		"live": "http://codedefense-ntf.rhcloud.com/"
 	},
 	{
 		"name": "N-Mario",
